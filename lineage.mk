@@ -7,7 +7,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Call device specific makefile
 $(call inherit-product, device/lg/b2ldsn/lineage_b2ldsn.mk)
 
-LOCAL_PATH := device/lg/magna
+LOCAL_PATH := device/lg/b2ldsn
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_FINGERPRINT=6.0.1/MRA58K/1619509518de2:user/release-keys PRIVATE_BUILD_DESC="d690_global_com-user 6.0 MRA58K 1619509518de2 release-keys"
 
