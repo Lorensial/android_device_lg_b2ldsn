@@ -1,4 +1,4 @@
-LOCAL_PATH := device/lg/magna
+LOCAL_PATH := device/lg/d690nStulus
  
 # Board
 TARGET_BOARD_PLATFORM := mt6582
@@ -33,7 +33,7 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := "/sys/devices/virtual/android_usb/android0/f_
 BOARD_CUSTOM_BOOTIMG_MK := $(LOCAL_PATH)/tools/bootimg.mk
 MTK_PLATFORM := mt6582
 MTK_PROJECT := magna
-TARGET_KERNEL_SOURCE := kernel/lg/magna/kernel
+TARGET_KERNEL_SOURCE := kernel/lg/stylus/kernel
 TARGET_KERNEL_CONFIG := magna_defconfig
 BOARD_KERNEL_CMDLINE :=
 BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x04000000 --tags_offset 0x00000100
@@ -134,4 +134,4 @@ USE_CAMERA_STUB := true
 
 # SELinux
 BOARD_SEPOLICY_DIRS += \
-    device/lg/magna/sepolicy
+    device/lg/d690/sepolicy
